@@ -1,0 +1,81 @@
+.image-container {
+    height: 100px;
+    width: 100%;
+    background-image: url("fp.jpg") ; /* The image used - important! */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  
+    
+}
+
+
+h1{
+   
+   
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    width: 100%;
+    color: white;
+    font-size: 350%;
+     
+   
+   
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 120%;
+}
+
+
+#menu{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+    font-weight: bold;
+   
+    font-size: 120%;
+}
+
+#navigationDiv {
+   padding-top: 20px;
+   padding-bottom: 90px;
+   padding-left: 20px;
+   width: 250px;
+    height: 25%;
+ 
+   border-style: groove;
+   border-width: 5px;
+   border-color: coral;
+   
+   
+   position: absolute;
+  
+   bottom:62px;
+  
+   
+}
+
+
+
+a {
+    font-size: small;
+    font-weight: bold;
+    color: white;
+    font-size: 120%;
+}
+
+
