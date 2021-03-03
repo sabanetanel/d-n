@@ -11,7 +11,7 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <style>
-        input[type=text],input[type=date],input[type=number], input[type=email] {
+        input[type=text],input[type=number] {
           width: 100%;
           padding: 12px 20px;
           margin: 8px 0;
@@ -157,33 +157,34 @@ ul li a:hover + .hidden, .hidden:hover {
          <h2> Please complite the details  .</h2>
         </div>
         
-        
+        <form action="BorrowingBook.html">
      <label for="Sid">Student id</label>
     <input type="text" id="Sid" name="Sid" placeholder="Your id..">
 
-    <label for="KB">The katagory book that you want to quest</label>
+    <label>The katagory book that you want to quest</label>
     <br>
     <input type="checkbox" id="k1" name="k1" value="Computer science">
-    <label for="vehicle1"> Computer science</label><br>
+    <label> Computer science</label><br>
     <input type="checkbox" id="k2" name="k2" value="Comedy">
-    <label for="vehicle2"> Comedy</label><br>
+    <label> Comedy</label><br>
     <input type="checkbox" id="k3" name="k3" value="Tension">
-    <label for="vehicle3"> Tension</label><br><br>
+    <label> Tension</label><br><br>
     <input type="button" value="Search books from these katagories" style="background:#696969; color: white">
     <br><br>
     
     <p>Do you want take one from this books?</p>
     
-  <input type="radio">
-  <label for="male">Yes</label><br>
-  <input type="radio" >
-  <label for="No">No</label><br><br>
+  <input type="radio" id="q" name="qq" value="yes">
+  <label>Yes</label><br>
+  <input type="radio" id="m" name="qq" value="No">
+  <label>No</label><br><br>
   <input type="button" value="Send" style="background:#696969; color: white">
+  
   <br><br>
     
     
     <label for="Bname">Book name  </label>
-    <input type="text" id="Bname" name="Bname" placeholder="The email of the Student..">
+    <input type="text" id="Bname" name="Bname" placeholder="The name of the book you chose..">
     
     
     <label for="Bid">Book Isbin</label>
@@ -193,13 +194,14 @@ ul li a:hover + .hidden, .hidden:hover {
   
     <input type="submit" value="Check Borrowing">
  <br><br><br>
-    
+    </form>
     
     <ul id="menu">
         <li><a href="FrontPage.html">Home</a></li>
         <li><a href="addBook.html">Add a new book</a></li>
-        <li><a href="StudentRgister.html">Register a student</a></li> 
+        <li><a href="StudentRegister.html">Register a student</a></li> 
         <li><a href="BorrowingBook.html">To borrow a book</a></li>
+        <li><a href="SearchBook.html">Search a book</a></li>
      
     </ul>
  

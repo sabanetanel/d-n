@@ -9,10 +9,9 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       
         
         <style>
-        input[type=text],input[type=date],input[type=number], select {
+        input[type=text] {
           width: 100%;
           padding: 12px 20px;
           margin: 8px 0;
@@ -153,44 +152,22 @@ ul li a:hover + .hidden, .hidden:hover {
     
     
     <body>
-        <div style="border-style: double;" >
-         <h1> Adding a new book.</h1>
+        <div style="border-style: double;">
+         <h1> Search a book.</h1>
+         
          <h2> Please write the details of the book.</h2>
         </div>
         
-        
-        <form action="addBook.html"></form>
-    <label for="Bid">Book Isbin</label>
-    <input type="number" id="Bid" name="isbin" placeholder="ISBIN...">
+        <form action="SearchBook.html">
+     <label for="Bname">The name of the book</label>
+    <input type="text" id="Bname" name="Bname" placeholder="Book name..">
 
-    <label for="Wname">Authur Name  </label>
-    <input type="text" id="Wname" name="Auther" placeholder="Authur Name..">
+   <input type="submit" value="Check Borrowing">
+ <br><br><br>
+ <br><br><br>
+ <br><br><br><br><br>
     
-    <label for="Bname">Book Name  </label>
-    <input type="text" id="Bname" name="Bname" placeholder="The name of the Book..">
-    
-    
-    <label for="BC">Book Copies  </label>
-    <input type="number" id="BC" name="BC" placeholder="Copies..">
-    
-    <label for="DP">Date of publication  </label>
-    <br>
-    <input type="date" id="DP" name="DP" >
-     <br><br>
-     
-    <label for="katagory">katagory</label>
-    <select id="katagory" name="katagory">
-      <option value="open">Choose a katagory</option>
-      <option value="Computer Senice">Computer Senice</option>
-      <option value="Tension">Tension</option>
-      <option value="Comedy">Comedy</option>
-    </select>
-    
-  
-    <input type="submit" value="Add the Book">
-    <br><br><br>
-    
-    
+    </form>
     <ul id="menu">
         <li><a href="FrontPage.html">Home</a></li>
         <li><a href="addBook.html">Add a new book</a></li>
